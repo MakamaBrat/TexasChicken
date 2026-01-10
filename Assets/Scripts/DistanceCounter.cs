@@ -30,7 +30,7 @@ public class DistanceCounter : MonoBehaviour
 
     void UpdateText()
     {
-        distanceText.text = Mathf.FloorToInt(distance) + " m";
+        distanceText.text = Mathf.FloorToInt(distance).ToString() ;
     }
 
     // 🔴 Вызывать при стопе / конце игры

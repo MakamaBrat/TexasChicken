@@ -10,6 +10,6 @@ public class BestDistanceLoader : MonoBehaviour
     void OnEnable()
     {
         int best = PlayerPrefs.GetInt(BEST_KEY, 0);
-        bestText.text = best + " m";
+        bestText.text = best.ToString() ;
     }
 }
